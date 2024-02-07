@@ -10,6 +10,19 @@ namespace Basic_program
     {
         static void Main(string[] args)
         {
+ prog4
+            int a, b;
+            Console.WriteLine("Enter the first number:-");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the second number:-");
+            b = Convert.ToInt32(Console.ReadLine());
+            if (a > b)
+            {
+                Console.WriteLine("A is the largest number");
+            }
+            else
+            {
+                Console.WriteLine("B is the largest number");
             Console.WriteLine("Enter the starting number of the range:-");
             int start = Convert.ToInt32(Console.ReadLine());
 
@@ -32,8 +45,13 @@ namespace Basic_program
 
                 Console.WriteLine("The number is odd number");
  main
+ main
             }
             Console.ReadLine();
         }
     }
 }
+
+        
+    
+
