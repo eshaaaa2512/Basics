@@ -10,16 +10,24 @@ namespace Basic_program
     {
         static void Main(string[] args)
         {
-            int i;
-            Console.WriteLine("Enter the number:-");
-            i= Convert.ToInt32(Console.ReadLine());
-            if (i % 2 == 0)
+            Console.WriteLine("Enter the starting number of the range:-");
+            int start = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter the ending number of the range:-");
+            int end = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Odd numbers in the range from" + start + "to " + end + "are");
+            PrintOddNumbers(start, end);
+        }
+
+        static void PrintOddNumbers(int start, int end)
+        {
+            for (int i = start; i <= end; i++)
             {
-                Console.WriteLine("The number is even");
-            }
-            else
-            {
-                Console.WriteLine("The number is odd");
+                if (i % 2 != 0)
+                {
+                    Console.WriteLine(i);
+                }
             }
             Console.ReadLine();
         }
