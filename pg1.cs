@@ -19,7 +19,7 @@ namespace Basic_program
             }
             else
             {
-                Console.WriteLine("The number is odd");
+                Console.WriteLine("The number is odd number");
             }
             Console.ReadLine();
         }
