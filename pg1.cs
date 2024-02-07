@@ -10,18 +10,17 @@ namespace Basic_program
     {
         static void Main(string[] args)
         {
-            int a;
+            int number, i, fact;
             Console.WriteLine("Enter the number:-");
-            a = Convert.ToInt32(Console.ReadLine());
-            if (a % 2 == 0)
+            number = Convert.ToInt32(Console.ReadLine());
+            fact = number;
+            for (i = number - 1; i >= 1; i--)
             {
-                Console.WriteLine("The number is divisible by 2");
-            }
-            else
-            {
-                Console.WriteLine("The number is not divible by 2");
+                fact = fact * i;
+                Console.WriteLine("The factorial is :- " + (fact));
             }
             Console.ReadLine();
+
         }
     }
 }
