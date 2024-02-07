@@ -24,10 +24,14 @@ namespace Basic_program
         {
             for (int i = start; i <= end; i++)
             {
+ prog2
                 if (i % 2 != 0)
                 {
                     Console.WriteLine(i);
                 }
+
+                Console.WriteLine("The number is odd number");
+ main
             }
             Console.ReadLine();
         }
