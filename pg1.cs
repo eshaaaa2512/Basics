@@ -10,6 +10,20 @@ namespace Basic_program
     {
         static void Main(string[] args)
         {
+ prog7
+            int i, count, f1 = 0, f2 = 1, f3 = 0;
+            Console.WriteLine("Enter the limit:-");
+            count = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(f1);
+            Console.WriteLine(f2);
+            for (i = 0; i <= count; i++)
+            {
+
+                f3 = f1 + f2;
+                Console.WriteLine(f3);
+                f1 = f2;
+                f2 = f3;
+
  prog5
             int a, b, c;
             Console.WriteLine("Enter the first number:-");
@@ -21,7 +35,7 @@ namespace Basic_program
             b = c;
             Console.WriteLine("After swapping a will be :-" + (a));
             Console.WriteLine("After swapping b will be :-" + (b));
-=======
+
  prog4
             int a, b;
             Console.WriteLine("Enter the first number:-");
@@ -58,18 +72,39 @@ namespace Basic_program
                 Console.WriteLine("The number is odd number");
  main
  main
+ main
             }
  main
             Console.ReadLine();
         }
     }
 }
+ prog7
+
+                
+        
+   
+
+
+        
+    
+
+
+
+        
+
+
+
+    
+
+
 prog5
         
        
 
     
 }
+ main
  main
         
     
