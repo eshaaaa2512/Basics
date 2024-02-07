@@ -10,21 +10,24 @@ namespace Basic_program
     {
         static void Main(string[] args)
         {
-            int a;
-            Console.WriteLine("Enter the number:-");
+            int a, b;
+            Console.WriteLine("Enter the first number:-");
             a = Convert.ToInt32(Console.ReadLine());
-            if (a >= 0)
+            Console.WriteLine("Enter the second number:-");
+            b = Convert.ToInt32(Console.ReadLine());
+            if (a > b)
             {
-                Console.WriteLine("Number is positive");
+                Console.WriteLine("A is the largest number");
             }
             else
             {
-                Console.WriteLine("Number is Negative");
+                Console.WriteLine("B is the largest number");
             }
             Console.ReadLine();
         }
     }
 }
+
         
     
 
