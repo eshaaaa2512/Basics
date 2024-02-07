@@ -10,6 +10,16 @@ namespace Basic_program
     {
         static void Main(string[] args)
         {
+ prog8
+            int number, i, fact;
+            Console.WriteLine("Enter the number:-");
+            number = Convert.ToInt32(Console.ReadLine());
+            fact = number;
+            for (i = number - 1; i >= 1; i--)
+            {
+                fact = fact * i;
+                Console.WriteLine("The factorial is :- " + (fact));
+=======
  prog7
             int i, count, f1 = 0, f2 = 1, f3 = 0;
             Console.WriteLine("Enter the limit:-");
@@ -73,9 +83,11 @@ namespace Basic_program
  main
  main
  main
+ main
             }
  main
             Console.ReadLine();
+
         }
     }
 }
