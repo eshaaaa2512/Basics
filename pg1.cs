@@ -10,21 +10,32 @@ namespace Basic_program
     {
         static void Main(string[] args)
         {
-            int a;
-            Console.WriteLine("Enter the number:-");
-            a = Convert.ToInt32(Console.ReadLine());
-            if (a % 2 == 0)
+            int i, count, f1 = 0, f2 = 1, f3 = 0;
+            Console.WriteLine("Enter the limit:-");
+            count = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(f1);
+            Console.WriteLine(f2);
+            for (i = 0; i <= count; i++)
             {
-                Console.WriteLine("The number is divisible by 2");
-            }
-            else
-            {
-                Console.WriteLine("The number is not divible by 2");
+
+                f3 = f1 + f2;
+                Console.WriteLine(f3);
+                f1 = f2;
+                f2 = f3;
             }
             Console.ReadLine();
         }
     }
 }
+
+                
+        
+   
+
+
+        
+    
+
 
 
         
