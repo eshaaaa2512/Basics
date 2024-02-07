@@ -13,18 +13,27 @@ namespace Basic_program
             int a;
             Console.WriteLine("Enter the number:-");
             a = Convert.ToInt32(Console.ReadLine());
-            if (a >= 0)
+            if (a % 2 == 0)
             {
-                Console.WriteLine("Number is positive");
+                Console.WriteLine("The number is divisible by 2");
             }
             else
             {
-                Console.WriteLine("Number is Negative");
+                Console.WriteLine("The number is not divible by 2");
             }
             Console.ReadLine();
         }
     }
 }
+
+
+        
+
+
+
+    
+
+
         
     
 
