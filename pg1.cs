@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,30 +12,33 @@ namespace Basic_program
     {
         static void Main(string[] args)
         {
-            int a;
-            Console.WriteLine("Enter the number:-");
+            int a, b;
+            Console.WriteLine("Enter the a tenth position:-");
             a = Convert.ToInt32(Console.ReadLine());
-            if (a % 2 == 0)
-            {
-                Console.WriteLine("The number is divisible by 2");
-            }
-            else
-            {
-                Console.WriteLine("The number is not divible by 2");
-            }
+            Console.WriteLine("Enter the b one position:-");
+            b = Convert.ToInt32(Console.ReadLine());
+            int num = 10* a + 1 * b;
+            Console.WriteLine(num);
+            
+
             Console.ReadLine();
         }
     }
 }
-
-
-        
-
-
-
-    
-
+            
 
         
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
