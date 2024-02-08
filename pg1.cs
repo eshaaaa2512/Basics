@@ -12,6 +12,27 @@ namespace Basic_program
     {
         static void Main(string[] args)
         {
+ prog10
+            int a, b;
+            Console.WriteLine("Enter the first number:-");
+            a=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the second number-");
+            b=Convert.ToInt32(Console.ReadLine());
+            
+            int sum = a + b;
+
+
+
+            
+            int mul = a * b;
+            
+            float div = a / b;
+            Console.WriteLine("Sum of the number:" + (sum));
+            Console.WriteLine("The multiplication of the number is:"  + (mul));
+            Console.WriteLine("The division of the number is:" + (div));
+            Console.ReadLine();
+            
+
  prog9
             int a, b;
             Console.WriteLine("Enter the a tenth position:-");
@@ -101,6 +122,7 @@ namespace Basic_program
  main
  main
             Console.ReadLine();
+ main
 
         }
     }
