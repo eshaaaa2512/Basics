@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +12,17 @@ namespace Basic_program
     {
         static void Main(string[] args)
         {
+ prog9
+            int a, b;
+            Console.WriteLine("Enter the a tenth position:-");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the b one position:-");
+            b = Convert.ToInt32(Console.ReadLine());
+            int num = 10* a + 1 * b;
+            Console.WriteLine(num);
+            
+
+
  prog8
             int number, i, fact;
             Console.WriteLine("Enter the number:-");
@@ -19,7 +32,7 @@ namespace Basic_program
             {
                 fact = fact * i;
                 Console.WriteLine("The factorial is :- " + (fact));
-=======
+
  prog7
             int i, count, f1 = 0, f2 = 1, f3 = 0;
             Console.WriteLine("Enter the limit:-");
@@ -86,11 +99,15 @@ namespace Basic_program
  main
             }
  main
+ main
             Console.ReadLine();
 
         }
     }
 }
+ prog9
+            
+
  prog7
 
                 
@@ -102,12 +119,21 @@ namespace Basic_program
     
 
 
+ main
 
         
 
 
 
-    
+
+
+ prog9
+
+
+
+
+
+
 
 
 prog5
@@ -119,5 +145,5 @@ prog5
  main
  main
         
-    
+     main
 
