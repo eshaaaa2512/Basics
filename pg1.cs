@@ -10,20 +10,28 @@ namespace Basic_program
     {
         static void Main(string[] args)
         {
-            int a;
-            Console.WriteLine("Enter the number:-");
-            a = Convert.ToInt32(Console.ReadLine());
-            if (a % 2 == 0)
+            int num, temp, remainder, reverse = 0;
+            Console.WriteLine("Enter an integer \n");
+            num = Convert.ToInt32(Console.ReadLine());
+            temp = num;
+            while (num > 0)
             {
-                Console.WriteLine("The number is divisible by 2");
+                remainder = num % 10;
+               
+                reverse = reverse * 10 + remainder;
+                num /= 10;
+               
             }
+            Console.WriteLine("Given number is = {0}", temp);
+            Console.WriteLine("Its reverse is  = {0}", reverse);
+            if (temp == reverse)
+                Console.WriteLine("Number is a palindrome \n");
             else
-            {
-                Console.WriteLine("The number is not divible by 2");
-            }
+                Console.WriteLine("Number is not a palindrome \n");
             Console.ReadLine();
         }
     }
+
 }
 
 
