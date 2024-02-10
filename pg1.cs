@@ -1,17 +1,31 @@
 ﻿using System;
+ prog12
+
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+ main
 
-namespace Basic_program
+
+class program
 {
-    internal class Program
+    public static void Main()
     {
-        static void Main(string[] args)
+        int a, b, i, Sum = 0;
+        for (i = 1; i < 100; i++)
         {
+ prog12
+            a = i % 3;
+            b = i % 5;
+            if (a == 0 || b == 0)
+            {
+                Console.Write("{0}", i);
+                Sum = Sum + i;
+            }
+
  prog10
             int a, b;
             Console.WriteLine("Enter the first number:-");
@@ -123,14 +137,27 @@ namespace Basic_program
  main
             Console.ReadLine();
  main
-
+ main
         }
+        Console.WriteLine("\nThe Sum of all the Multiples of 3 or 5 Below 100 : {0}",Sum);
+        Console.Read();
     }
 }
  prog9
             
 
  prog7
+
+ prog12
+
+
+
+
+
+
+
+
+
 
                 
         
@@ -168,4 +195,5 @@ prog5
  main
         
      main
+ main
 
