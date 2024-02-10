@@ -17,6 +17,19 @@ class program
         int a, b, i, Sum = 0;
         for (i = 1; i < 100; i++)
         {
+ prog13
+            int num, temp, remainder, reverse = 0;
+            Console.WriteLine("Enter an integer \n");
+            num = Convert.ToInt32(Console.ReadLine());
+            temp = num;
+            while (num > 0)
+            {
+                remainder = num % 10;
+               
+                reverse = reverse * 10 + remainder;
+                num /= 10;
+               
+
  prog12
             a = i % 3;
             b = i % 5;
@@ -103,8 +116,16 @@ class program
             if (a > b)
             {
                 Console.WriteLine("A is the largest number");
+ main
             }
+            Console.WriteLine("Given number is = {0}", temp);
+            Console.WriteLine("Its reverse is  = {0}", reverse);
+            if (temp == reverse)
+                Console.WriteLine("Number is a palindrome \n");
             else
+ prog13
+                Console.WriteLine("Number is not a palindrome \n");
+
             {
                 Console.WriteLine("B is the largest number");
             Console.WriteLine("Enter the starting number of the range:-");
@@ -135,6 +156,7 @@ class program
             }
  main
  main
+ main
             Console.ReadLine();
  main
  main
@@ -142,6 +164,7 @@ class program
         Console.WriteLine("\nThe Sum of all the Multiples of 3 or 5 Below 100 : {0}",Sum);
         Console.Read();
     }
+
 }
  prog9
             
